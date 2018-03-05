@@ -1,0 +1,33 @@
+### ITracr Admin User Guide
+
+This guide is for Admin Users of Itracr, and covers the common tasks that an Admin might want to perform, such as adding 
+new users and managing users, creating projects and tasks, and approving leave requests.
+
+## Add New Users
+
+There are two types of users on Itracr: internal users and supplier users. An internal user is a permanent employee of the company
+(full-time or part-time). A supplier user is a contractor employed by the company for specific projects. An internal user will 
+generate an invoice that is paid directly by the company, while a supplier user is generally paid via their supplier company. 
+However, there is an option to generate an invoice for a supplier user.
+
+You can add new users either via the link on the admin home page, or by clicking the Users tab on the navigation bar. 
+This will take you to the Manage Users page. From here you can add a new user to Itracr by clicking either 'Add Internal User' 
+or 'Add Supplier User'. You can then fill in the details for the new user, including contact details, invoicing details and hours
+per day. You can also assign a manager to the user. The manager will optionally be able to approve the timecard and leave
+requests of that user. Adding a supplier user requires first creating a supplier company. You can do this quickly from the 'Add 
+supplier user' page. 
+
+When you have filled in the relevant details for a new user, click the green 'Save User' button. This will take you to the
+'Manage Users' page where you can view a list of all users. 
+
+## Add a Supplier 
+
+If you do not employ contractors, you can skip this step.
+
+There is a 'Manage Suppliers' option on the Users tab of the navigation bar. Clicking on this will take you to a list of your
+current suppliers. You can add a new supplier by clicking the 'Add Supplier' button in the top right of the page, or amend the 
+for an existing supplier by clicking on their name. 
+
+## Create a Project
+
+## Create Tasks for a Project
