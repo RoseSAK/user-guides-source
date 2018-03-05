@@ -21,7 +21,7 @@ When you have filled in the relevant details for a new user, click the green 'Sa
 user page. In order for a user to be active, you must click the link below the user email on the 'Edit User' page which says 'Invite User to ITracr'. This
 send the user an email which contains a link to the registration page.
 
-# Activating Users
+# Activate Users
 
 By default, new users are inactive. To activate a user, you must click the link below the user email on the 'Edit User' page, 
 which says 'Invite User to Itracr'. When you create and save a new user, you will be taken straight to this page, so you can 
@@ -44,8 +44,15 @@ details for an existing supplier by clicking on their name.
 
 ## Add a Client
 
-A client is a company 
+A client can be an external company, or a department within your own company. Every project that is created must be assigned to
+a client. You can create new clents via the Clients page, which is accessed either from the Admin Dashboard or the navigation bar.
+The Clients page presents a list of all your current clients. Click the button in the top right-hand corner to add a new client. 
+
+There is an option to make the client internal, in which case you can use the company address. Once a client is created and 
+saved, you are taken to the Client Info page. Here, you can add new projects and tasks for the client. 
 
 ## Create a Project
+
+Projects can be managed via the 'Projects' tab on the navigation bar. 
 
 ## Create Tasks for a Project
