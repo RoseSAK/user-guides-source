@@ -17,16 +17,34 @@ per day. You can also assign a manager to the user. The manager will optionally 
 requests of that user. Adding a supplier user requires first creating a supplier company. You can do this quickly from the 'Add 
 supplier user' page. 
 
-When you have filled in the relevant details for a new user, click the green 'Save User' button. This will take you to the
-'Manage Users' page where you can view a list of all users. 
+When you have filled in the relevant details for a new user, click the green 'Save User' button. This will take you to the edit 
+user page. In order for a user to be active, you must click the link below the user email on the 'Edit User' page which says 'Invite User to ITracr'. This
+send the user an email which contains a link to the registration page.
+
+# Activating Users
+
+By default, new users are inactive. To activate a user, you must click the link below the user email on the 'Edit User' page, 
+which says 'Invite User to Itracr'. When you create and save a new user, you will be taken straight to this page, so you can 
+activate users immediately after creating them. Alternatively, you can create users and activate them at a later date. You can 
+access the 'Edit User' page for a particular user by navigating to the 'Manage Users' page, clicking on the name of the user, and
+clicking on the 'Edit User' button in the top right-hand corner. You will then be able to activate this user, if they are inactive, 
+and deactivate them if they are active. 
+
+When a user is activated, they will receive an email containing a link to a registration page. Their username will be the email 
+which you entered for them, and they will create their own password. Having done this, they will be able to log in to ITracr to 
+fill in their timecard and make leave requests. Their status will appear as 'Active'. 
 
 ## Add a Supplier 
 
 If you do not employ contractors, you can skip this step.
 
-There is a 'Manage Suppliers' option on the Users tab of the navigation bar. Clicking on this will take you to a list of your
+Click on the 'Manage Suppliers' option in the Users tab of the navigation bar. This will take you to a list of your
 current suppliers. You can add a new supplier by clicking the 'Add Supplier' button in the top right of the page, or amend the 
-for an existing supplier by clicking on their name. 
+details for an existing supplier by clicking on their name. 
+
+## Add a Client
+
+A client is a company 
 
 ## Create a Project
 
