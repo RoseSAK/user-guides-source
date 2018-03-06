@@ -53,6 +53,21 @@ saved, you are taken to the Client Info page. Here, you can add new projects and
 
 ## Create a Project
 
-Projects can be managed via the 'Projects' tab on the navigation bar. 
+Projects can be managed via the 'Projects' tab on the navigation bar. Create a new project by clicking the 'Add Project' button 
+on the 'View Projects' page. Once you have entered the details for a new project and clicked 'Save', you will be taken to the 
+information page for the new project, from which you can change the details, add tasks and client contacts, and view important 
+financial information.
+
+There are two types of project: Fixed Price (FP) and Time and Materials (TM). The project type is selected when you create a new
+project. 
+
+# Add a Client Contact to a Project
+
+To add a client contact to a project, click the 'Add contact' button on the project information page. From here, you can either
+select a client contact from a list of existing contacts for that client, or you can create a new client contact. If you create a 
+new client contact, they will automatically be added to the list of contacts for that client. 
+
+Client contacts can also be created by navigating to the View Clients page, selecting a client, and then clicking the 'Add contact'
+button. These contacts can then be added to projects. 
 
 ## Create Tasks for a Project
