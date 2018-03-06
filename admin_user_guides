@@ -3,6 +3,16 @@
 This guide is for Admin Users of Itracr, and covers the common tasks that an Admin might want to perform, such as adding 
 new users and managing users, creating projects and tasks, and approving leave requests.
 
+## Contents
+
+1. Add new users 
+2. Activate users
+3. Add a supplier 
+4. Add a client 
+5. Create a project 
+    -  Add a client contact to a project
+6. Create tasks for a project
+
 ## Add New Users
 
 There are two types of users on Itracr: internal users and supplier users. An internal user is a permanent employee of the company
@@ -68,6 +78,16 @@ select a client contact from a list of existing contacts for that client, or you
 new client contact, they will automatically be added to the list of contacts for that client. 
 
 Client contacts can also be created by navigating to the View Clients page, selecting a client, and then clicking the 'Add contact'
-button. These contacts can then be added to projects. 
+button. These contacts can then be added to a project from the project information page. 
 
 ## Create Tasks for a Project
+
+Tasks can also be added via the project information page. Enter the details for a new task and click 'Save' or 'Save and create 
+new'. The task will then appear on the project information page. There is an option to enforce the start and end dates of a task, 
+meaning that when the task appears on a users' timecard, they can only book hours on the task within the start and end date period. 
+
+In order for users assigned to a task to be able to book hours onto that task, you must ensure that the option 'Display task
+on timecard' at the top of the task information page is set to 'On'. 
+
+
+
