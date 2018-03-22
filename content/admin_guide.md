@@ -1,18 +1,21 @@
-# iTracr Administrator User Guide
+Title: iTracr Administrator User Guide
+Date: 2018-03-22
+Category: User Guides
+Tags: itracr, business, admin, guide
+Author: Rose Azad Khan
 
 This guide provides an introduction for Administrator (Admin) Users of iTracr, and covers the common tasks that an Admin might want to perform, including adding new users, creating projects and tasks, and approving leave requests.
 
-# Contents
+## Contents
 
 1. Add new users 
 2. Activate users
 3. Add a supplier 
 4. Add a client 
 5. Create a project 
-    -  Add a client contact to a project
 6. Create tasks for a project
 
-# Add New Users
+## Add New Users
 
 There are two types of users on iTracr: internal users and supplier users. An internal user is a permanent employee of the company (full-time or part-time). A supplier user is a contractor employed by the company for specific projects. An internal 
 user will generate an invoice that is paid directly by the company, while a supplier user is generally paid via their supplier company. However, there is an option to generate an invoice for a supplier user on the 'Create New User' page.
@@ -66,7 +69,7 @@ financial information.
 There are two types of project: Fixed Price (FP) and Time and Materials (TM). The project type is selected when you create a new
 project. 
 
-## Add a Client Contact to a Project
+# Add a Client Contact to a Project
 
 To add a client contact to a project, click the 'Add contact' button on the project information page. From here, you can either
 select a client contact from a list of existing contacts for that client, or you can create a new client contact. If you create a 
@@ -83,6 +86,7 @@ meaning that when the task appears on a users' timecard, they can only book hour
 
 In order for users assigned to a task to be able to book hours onto that task, you must ensure that the option 'Display task
 on timecard' at the top of the task information page is set to 'On'. 
+
 
 
 

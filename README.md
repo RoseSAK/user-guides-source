@@ -1,39 +1,55 @@
-## Welcome to GitHub Pages
+# My Wholesome Blog
+###### by bishwin
 
-You can use the [editor on GitHub](https://github.com/RoseSAK/faq.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Steps
+1. `git clone https://github.com/Bishwin/selftitled.git`
+1. `mkvirtualenv wholesome`
+1. `pip install -r requirements`
+1. run with `make devserver`
+1. stop with `make stopserver`
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Making Posts
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+###### with python 2 or 3
 
-```markdown
-Syntax highlighted code block
+Use handy dandy script `make_entry.py` to create posts
 
-# Header 1
-## Header 2
-### Header 3
+`python make_entry.py "My_Wholesome_Post_Name"`
 
-- Bulleted
-- List
+###### with python 2 (untested with python 3)
 
-1. Numbered
-2. List
+This project uses `Fabric` to automate some tedious tasks.
+  
+To create a new post with `Fabric` do:
+  
+`fab make_entry:"New Post"`
 
-**Bold** and _Italic_ and `Code` text
+To add your own custom method to use with Fabric:
+1. editing `fabfile.py`
+1. add method
+1. use method with `fab your_method_name: <your_args>`
 
-[Link](url) and ![Image](src)
+
+## Editing a post  
+`Status: draft` moves content to drafts and isn't visible on homepage  
+`Status: published` sets a post visible and appears on homepage   
+
+## Hosting with github pages
+
+using `ghp-import` we can push the `Pelican` generated output directory to a github repo.  
+change to your repo details and run the following:
+```
+ghp-import output
+git push git@github.com:<username>/<username>.github.io.git gh-pages:master
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+your site should be up on githubpages
 
-### Jekyll Themes
+### Automating deploying to github
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RoseSAK/faq.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+y'all need to edit `fabfile.py` with your github repo details.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
-[Admin User Guides](http://https://github.com/RoseSAK/faq.github.io/edit/master/admin_user_guides)
+1. open `fabfile.py`
+1. edit line `143` to the repo you used above
+1. `fab github` to push
