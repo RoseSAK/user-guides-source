@@ -1,9 +1,8 @@
-### ITracr Admin User Guide
+# iTracr Administrator User Guide
 
-This guide is for Admin Users of Itracr, and covers the common tasks that an Admin might want to perform, such as adding 
-new users and managing users, creating projects and tasks, and approving leave requests.
+This guide provides an introduction for Administrator (Admin) Users of iTracr, and covers the common tasks that an Admin might want to perform, including adding new users, creating projects and tasks, and approving leave requests.
 
-## Contents
+# Contents
 
 1. Add new users 
 2. Activate users
@@ -13,32 +12,28 @@ new users and managing users, creating projects and tasks, and approving leave r
     -  Add a client contact to a project
 6. Create tasks for a project
 
-## Add New Users
+# Add New Users
 
-There are two types of users on Itracr: internal users and supplier users. An internal user is a permanent employee of the company
-(full-time or part-time). A supplier user is a contractor employed by the company for specific projects. An internal user will 
-generate an invoice that is paid directly by the company, while a supplier user is generally paid via their supplier company. 
-However, there is an option to generate an invoice for a supplier user.
+There are two types of users on iTracr: internal users and supplier users. An internal user is a permanent employee of the company (full-time or part-time). A supplier user is a contractor employed by the company for specific projects. An internal 
+user will generate an invoice that is paid directly by the company, while a supplier user is generally paid via their supplier company. However, there is an option to generate an invoice for a supplier user on the 'Create New User' page.
 
 You can add new users either via the link on the admin home page, or by clicking the Users tab on the navigation bar. 
-This will take you to the Manage Users page. From here you can add a new user to Itracr by clicking either 'Add Internal User' 
+This will take you to the Manage Users page. From here you can add a new user to iTracr by clicking either 'Add Internal User' 
 or 'Add Supplier User'. You can then fill in the details for the new user, including contact details, invoicing details and hours
 per day. You can also assign a manager to the user. The manager will optionally be able to approve the timecard and leave
 requests of that user. Adding a supplier user requires first creating a supplier company. You can do this quickly from the 'Add 
 supplier user' page. 
 
 When you have filled in the relevant details for a new user, click the green 'Save User' button. This will take you to the edit 
-user page. In order for a user to be active, you must click the link below the user email on the 'Edit User' page which says 'Invite User to ITracr'. This
-send the user an email which contains a link to the registration page.
+user page. In order for a user to be active, you must click the link below the user email on the 'Edit User' page which says 'Invite User to iTracr'. This will send the user an email which contains a link to the registration page.
 
-# Activate Users
+## Activate Users
 
 By default, new users are inactive. To activate a user, you must click the link below the user email on the 'Edit User' page, 
-which says 'Invite User to Itracr'. When you create and save a new user, you will be taken straight to this page, so you can 
+which says 'Invite User to iTracr'. When you create and save a new user, you will be taken straight to this page, so you can 
 activate users immediately after creating them. Alternatively, you can create users and activate them at a later date. You can 
 access the 'Edit User' page for a particular user by navigating to the 'Manage Users' page, clicking on the name of the user, and
-clicking on the 'Edit User' button in the top right-hand corner. You will then be able to activate this user, if they are inactive, 
-and deactivate them if they are active. 
+clicking on the 'Edit User' button in the top right-hand corner. You will then be able to activate this user, if they are inactive, and deactivate them if they are active. 
 
 When a user is activated, they will receive an email containing a link to a registration page. Their username will be the email 
 which you entered for them, and they will create their own password. Having done this, they will be able to log in to ITracr to 
@@ -61,7 +56,7 @@ The Clients page presents a list of all your current clients. Click the button i
 There is an option to make the client internal, in which case you can use the company address. Once a client is created and 
 saved, you are taken to the Client Info page. Here, you can add new projects and tasks for the client. 
 
-## Create a Project
+# Create a Project
 
 Projects can be managed via the 'Projects' tab on the navigation bar. Create a new project by clicking the 'Add Project' button 
 on the 'View Projects' page. Once you have entered the details for a new project and clicked 'Save', you will be taken to the 
@@ -71,7 +66,7 @@ financial information.
 There are two types of project: Fixed Price (FP) and Time and Materials (TM). The project type is selected when you create a new
 project. 
 
-# Add a Client Contact to a Project
+## Add a Client Contact to a Project
 
 To add a client contact to a project, click the 'Add contact' button on the project information page. From here, you can either
 select a client contact from a list of existing contacts for that client, or you can create a new client contact. If you create a 
